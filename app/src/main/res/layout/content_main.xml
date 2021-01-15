@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/cameratitle"
+        android:orientation="vertical"
+        android:layout_height="160dp">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/pdfText"
+        android:layout_width="match_parent"
+        android:layout_height="00dp"
+        android:layout_gravity="top"
+        android:layout_weight="0.90"
+        android:gravity="center"
+        android:hint="Tap here to paste/write"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="00dp"
+        android:layout_weight="0.10"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/fileName"
+            android:layout_width="00dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.70"
+            android:hint="File Name"
+            android:padding="05dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnCreate"
+            android:layout_width="00dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.30"
+            android:background="@color/colorAccent"
+            android:text="Create PDF"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
